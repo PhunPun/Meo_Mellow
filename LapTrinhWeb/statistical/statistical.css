@@ -1,0 +1,22 @@
+
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+      h2 {
+        color: #333;
+      }
+      .chart-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      #columnchart_material, #piechart_3d, #chart_div {
+        background-color: white;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 20px;
+      }

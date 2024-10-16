@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #00203FFF;
+}
+
+h1 {
+    color: #FAEBEF;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FAEBEF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], select, input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+input[type="text"], input[type="number"], select, input[type="file"]:hover{
+    cursor: pointer;
+}
+input[type="submit"] {
+    background-color: #0E4274;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #DC143C;
+    cursor: pointer;
+}
+#id_cat,#ten_meo,#anh{
+    width: 582.67px;
+}
+#price,#tuoi,#can_nang{
+    width: 582.67px;
+}
+#additional_images{
+    width: 582.67px;
+}

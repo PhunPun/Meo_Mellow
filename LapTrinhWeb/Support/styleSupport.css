@@ -1,0 +1,54 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+form{
+    border: 2px solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(210, 142, 87, 0.854); 
+    color: white;
+    background-image: url('./images/background3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-family: "Roboto Slab", serif;
+    
+}
+#name, #tel, #hotro{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#name:hover{
+background-color: aqua;
+}
+#tel:hover{
+    background-color: aqua;
+}
+#hotro:hover{
+    background-color: aqua;
+}
+button{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+body{
+    background: url('./images/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}

@@ -1,0 +1,140 @@
+body{
+    background-color: bisque;
+}
+.space{
+    width: 100vw;
+    height:10vh;
+}
+h1{
+    padding-top: 10px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#chon-meo, #chinh-sach-bao-hanh, #chinh-sach-van-chuyen,#quy-trinh,#luu-y{
+    padding: 20px;
+    background-color: rgba(204, 143, 94, 0.522);
+    margin: 20px 40px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#faqs{
+    padding: 20px;
+    background-color: rgba(204, 143, 94, 0.522);
+    margin: 20px 40px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.right-contact{
+    flex: 1;
+}
+.right-contact-over{
+    width: 10%;
+    position: sticky;
+    top: 30%;
+    float: right;
+}
+.right-contact-over>img{
+    width: 100%;
+}
+.right-contact-main-over{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.right-contact-main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: 0 0 7px 0px gray;
+    padding-bottom: 15%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 9%;
+    margin-bottom: 20px;
+}
+.right-contact-main>div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20%;
+}
+.right-contact-main>div>img{
+    width: 50%;
+    margin-right: 20%;
+}
+.right-contact-main>div>div{
+    position: absolute;
+    width: 0px;
+    height: 35px;
+    right: 50%;
+    transition: width 1s;
+}
+.text-right-ehz{
+    position: absolute;
+    width: 0px;
+    height: 35px;
+    background-color: rgba(210, 142, 87, 0.854);
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: width 1s;
+}
+.text-right-ehz>a{
+    position: absolute;
+    font-weight: 600;
+    color: darkred;
+    padding: 10px 50px;
+    display: none;
+}
+.right-email:hover .right-text-none-email{
+    display: block;
+    width: 130px;
+}
+.right-email:hover .text-right-ehz{
+    display: block;
+    width: 130px;
+}
+.right-email:hover .text-right-ehz > a{
+    display: block;
+}
+
+.right-hotline:hover .right-text-none-hotline{
+    display: block;
+    width: 130px;
+}
+.right-hotline:hover .text-right-ehz{
+    display: block;
+    width: 130px;
+}
+.right-hotline:hover .text-right-ehz > a{
+    display: block;
+}
+.right-zalo:hover .right-text-none-zalo{
+    display: block;
+    width: 130px;
+}
+.right-zalo:hover .text-right-ehz{
+    display: block;
+    width: 130px;
+}
+.right-zalo:hover .text-right-ehz > a{
+    display: block;
+    width: 130px;
+}
+.text-right-ehz:hover{
+    border: 2px inset rgba(210, 142, 87, 0.854);
+    background-color: white;
+}
+.text-right-ehz:hover > a{
+    color: teal;
+}

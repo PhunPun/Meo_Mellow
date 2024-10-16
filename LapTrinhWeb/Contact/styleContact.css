@@ -1,0 +1,131 @@
+.space{
+    width: 100vw;
+    height: 10vh;
+}
+.design > h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background: url('../Contact/images/contact.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace; 
+    padding-left: 10px;
+    background-color: rgb(20, 17, 7);
+}
+.design h1>img{
+    width: 300px;
+    padding-top: 50px;
+    
+}
+.design h1>span {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer {
+    height: 40vh;
+    background-color: rgba(210, 142, 87, 0.854);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around; /* Căn chỉnh các phần tử theo chiều ngang */
+    align-items: flex-start;
+    flex-wrap: wrap; /* Tự động chuyển dòng */
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-column p {
+    color: white;
+    font-weight: bold;
+}
+
+.footer-column i {
+    margin: 5px 0;
+    color: white;
+}
+
+.footer-column a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+}
+
+/* Style Icon */
+.footer-column i.fa-envelope, .footer-column i.fa-phone, .footer-column i.fa-facebook {
+    margin-right: 8px;
+    color: white;
+}
+
+.footer-column iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+
+.home-footer-colum-section {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.home-footer-colum-section h2 {
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.home-footer-colum-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.home-footer-colum-section li {
+    margin: 5px 0;
+    
+}
+
+.home-footer-colum-section a {
+    color: black !important; /* Màu chữ liên kết mặc định */
+    text-decoration: none !important; /* Bỏ gạch chân */
+}
+
+.home-footer-colum-section a:hover {
+    color: #ff6347 !important; /* Màu chữ khi di chuột qua */
+    text-decoration: underline !important; /* Gạch chân liên kết khi di chuột qua */
+}
+
+
+button {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(210, 142, 87, 0.854);
+}
+
+button {
+    background-color: rgba(210, 142, 87, 0.854);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #e5533d;
+}
+
+  
